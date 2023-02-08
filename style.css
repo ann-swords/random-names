@@ -30,42 +30,18 @@ body{
 /* The names */
 .student{
     font-family: 'Press Start 2P';
-    font-size: 30px;
+    /* font-size: 50px; */
     color: white;
+    animation: mymove 5s infinite;
 }
 
-
-/* Boy Moving: */
-/* .pic{
-    display: inline-block;
-    margin-top: 10%;
+@keyframes mymove {
+  45% {font-size: 75px;}
 }
-
-.bro{
-    width: 30%;
-    position: fixed;
-    
-} */
 
 
 /* Animation */
 
-/* Button Animation */
-  /* .randomBtn:hover {
-    animation-name: rotate;
-    animation-duration: 0.7s;
-    animation-direction: reverse;
-  }
-  
-  @keyframes rotate {
-    0% {
-      transform: rotate(0);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  } */
-  
   .pic {
     position: absolute;
     bottom: 0;

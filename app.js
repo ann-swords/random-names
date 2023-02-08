@@ -14,6 +14,7 @@ const names = [
 
 const randomBtn = document.querySelector('.randomBtn') 
 const student = document.querySelector('.student') 
+let soundEffects = new Audio('click.wav')
 //Randomizing the names
 for (let i = 0; i < names.length; i++) {
     const randomPosition = Math.floor((names.length - i) * Math.random())
@@ -26,6 +27,7 @@ function getRandomName (){
     if(names.length !== 0){
         // student.innerText = names.pop() 
         student.innerText = names.pop() 
+        soundEffects.play()
         console.log(names)
         }
     }
