@@ -1,3 +1,86 @@
 body{
-    background-color: rgb(232, 216, 255);
+    /* Backgroud */
+    background-image: url('2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    /* height: 100vh; */    
 }
+
+/* Div for Random Names and Button */
+.randomNames{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.randomBtn{
+    background-color: #37B1BC;
+    width: auto;
+    height: 60px;
+    font-size: 30px;
+    /* text-align: center; */
+    font-family: 'Press Start 2P';
+}
+
+/* The names */
+.student{
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+    color: white;
+}
+
+
+/* Boy Moving: */
+/* .pic{
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.bro{
+    width: 30%;
+    position: fixed;
+    
+} */
+
+
+/* Animation */
+
+/* Button Animation */
+  /* .randomBtn:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  /* .bro {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 130px;
+    animation: animate 7s linear infinite;
+  }
+  
+  @keyframes animate {
+    0% {
+      left: 0;
+      transform: translate(-100%);
+    }
+    100% {
+      left: 100%;
+      transform: translate(0);
+    }
+  } */
