@@ -1,8 +1,7 @@
 const names = [
     'Abdulla', 'Ahlam', 'Ahmed Hisham',
     'Ahmed Al-Slaibi', 'Ali Lababidi', 'Ali Hadi',
-    'Ali Naser', 'Aref', 'Bader',
-    'Eman', 'Esraa', 'Fatima',
+    'Ali Naser', 'Aref', 'Bader', 'Esraa',
     'Hajar', 'Hasan Alsowaidi', 'Hasan Marhoon',
     'Hassan	Al Hashimi', 'Hassan Khushbakhat', 'Haya',
     'Jehan', 'Madhawi', 'Mahmood',
